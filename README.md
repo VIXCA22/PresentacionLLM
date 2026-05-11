@@ -503,6 +503,10 @@ La documentación y la implementación del proyecto fueron apoyadas por herramie
 - Google. *NotebookLM Help*. https://support.google.com/notebooklm/answer/16164461
 - OpenAI. *What is ChatGPT?* https://help.openai.com/en/articles/6783457-what-is-chatgpt
 
+## Licencia
+
+Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
+
 ## Créditos
 
 Proyecto desarrollado para presentar alternativas prácticas de uso de LLMs:

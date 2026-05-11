@@ -32,11 +32,9 @@ Zero_Infrastructure_LLMs.pptx
 ```text
 PresentacionLLM/
 |-- app.py                         # App principal: Ollama + Groq + Hugging Face
-|-- app2.py                        # App alternativa: solo Ollama local
 |-- requirements.txt               # Dependencias de Python
 |-- Zero_Infrastructure_LLMs.pptx   # Presentacion del proyecto
 |-- files/                         # Carpeta opcional para material adicional
-|-- files.zip                      # Material comprimido relacionado
 |-- .gitignore                     # Archivos que no se suben al repositorio
 `-- README.md                      # Guia de instalacion y uso
 ```
@@ -144,12 +142,6 @@ ollama pull gemma2:2b
 ```text
 Tipo de ejecucion: Local
 Backend: Ollama
-```
-
-Tambien puedes abrir la version sencilla solo-local:
-
-```bash
-python -m streamlit run app2.py
 ```
 
 ## Uso Remoto con Groq
@@ -276,7 +268,7 @@ Para Ollama:
 
 ```bash
 ollama pull llama3.2:3b
-python -m streamlit run app2.py
+python -m streamlit run app.py
 ```
 
 ## Creditos

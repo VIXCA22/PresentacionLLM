@@ -33,7 +33,22 @@ The project presentation is included as:
 
 ```text
 Zero_Infrastructure_LLMs.pptx
+documento_base_llm_apis_IE0435.pdf
 ```
+
+## Theoretical Background
+
+This project is based on the connection between classical artificial intelligence concepts and modern large language models:
+
+- **Artificial Intelligence:** computational systems that can recognize patterns, classify data, search for solutions, optimize decisions, or interact through natural language.
+- **Machine Learning:** models learn from data instead of relying only on manually written rules.
+- **Artificial Neural Networks:** models adjust internal weights to reduce error and improve predictions.
+- **Deep Learning:** neural networks with multiple layers can represent more complex relationships and abstractions.
+- **Transformers:** modern LLMs are mainly based on transformer architectures, where attention mechanisms help the model identify relevant parts of the input context.
+- **Foundation Models:** large pre-trained models can be reused across many tasks without training them from scratch.
+- **LLM APIs:** an API allows a program to send prompts, generation parameters, and authentication credentials to a provider and receive generated text back.
+
+The practical focus is to compare low-cost or free options for accessing LLMs through APIs while keeping technical and ethical limitations visible: privacy, hallucinations, provider dependency, rate limits, and responsible use.
 
 ## Features
 
@@ -54,6 +69,7 @@ PresentacionLLM/
 |-- app.py                         # Main application
 |-- requirements.txt               # Python dependencies
 |-- Zero_Infrastructure_LLMs.pptx   # Project presentation
+|-- documento_base_llm_apis_IE0435.pdf # Theoretical base document
 |-- .gitattributes                 # Binary file handling for Git
 |-- .gitignore                     # Git exclusions
 `-- README.md                      # Documentation
@@ -252,6 +268,31 @@ Prepare Ollama:
 ollama pull llama3.2:3b
 ```
 
+## AI Tools Used
+
+The project documentation and implementation were supported by generative AI tools. These tools were used as assistants for drafting, comparison, code review, organization of ideas, and documentation polishing. Final technical validation remains the author's responsibility.
+
+| Tool | Use in the project |
+| --- | --- |
+| ChatGPT | README structuring, installation guidance, code cleanup, Git/GitHub workflow support, and bilingual documentation. |
+| Claude | Conceptual review, explanation refinement, comparison of LLM/API alternatives, and wording support. |
+| NotebookLM / LLM Notebook | Review and organization of source material, extraction of key ideas from documents, and support for theory synthesis. |
+
+## References
+
+- Coto Jiménez, M. (2026). *Introducción a los Modelos Clásicos de Inteligencia Artificial Aplicada a la Ingeniería Eléctrica*. Universidad de Costa Rica. Course document: `AI.pdf`.
+- Universidad de Costa Rica, Escuela de Ingeniería Eléctrica. (2026). *Asignación: Presentación Individual, Tema 11: Opciones gratuitas o de bajo costo para acceder a LLMs a través de APIs*.
+- Paddalwar, Y. *How to Access Free Open Source LLMs Like Llama 3 from Hugging Face Using Python API Step-by-Step*. Medium. https://medium.com/@yashpaddalwar/how-to-access-free-open-sourcellms-like-llama-3-from-hugging-face-using-python-api-step-by-step-5da80c98f4e3
+- Vaswani, A., et al. (2017). *Attention Is All You Need*. https://arxiv.org/abs/1706.03762
+- Hugging Face. *Inference Providers documentation*. https://huggingface.co/docs/inference-providers/en/index
+- Groq. *GroqCloud and pricing information*. https://groq.com/groqcloud and https://groq.com/pricing
+- Google AI for Developers. *Gemini API quickstart*. https://ai.google.dev/gemini-api/docs/quickstart
+- Together AI. *Pricing*. https://www.together.ai/pricing
+- Together AI Docs. *Serverless models*. https://docs.together.ai/docs/serverless-models
+- Anthropic. *Claude*. https://www.anthropic.com/claude
+- Google. *NotebookLM Help*. https://support.google.com/notebooklm/answer/16164461
+- OpenAI. *What is ChatGPT?* https://help.openai.com/en/articles/6783457-what-is-chatgpt
+
 ---
 
 ## Español
@@ -269,7 +310,22 @@ La presentación del proyecto está incluida en:
 
 ```text
 Zero_Infrastructure_LLMs.pptx
+documento_base_llm_apis_IE0435.pdf
 ```
+
+## Base Teórica
+
+Este proyecto se apoya en la relación entre conceptos clásicos de inteligencia artificial y los modelos grandes de lenguaje modernos:
+
+- **Inteligencia artificial:** sistemas computacionales capaces de reconocer patrones, clasificar datos, buscar soluciones, optimizar decisiones o interactuar mediante lenguaje natural.
+- **Aprendizaje automático:** modelos que aprenden a partir de datos en lugar de depender solo de reglas escritas manualmente.
+- **Redes neuronales artificiales:** modelos que ajustan pesos internos para reducir error y mejorar predicciones.
+- **Deep learning:** redes con múltiples capas que permiten representar relaciones y abstracciones más complejas.
+- **Transformers:** arquitectura dominante en LLMs modernos; usa mecanismos de atención para identificar partes relevantes del contexto.
+- **Modelos fundacionales:** modelos grandes preentrenados que pueden reutilizarse en muchas tareas sin entrenarlos desde cero.
+- **APIs de LLMs:** una API permite enviar prompts, parámetros de generación y credenciales a un proveedor para recibir texto generado por el modelo.
+
+El enfoque práctico consiste en comparar opciones gratuitas o de bajo costo para acceder a LLMs mediante APIs, manteniendo visibles sus límites técnicos y éticos: privacidad, alucinaciones, dependencia del proveedor, límites de uso y responsabilidad en resultados técnicos.
 
 ## Características
 
@@ -290,6 +346,7 @@ PresentacionLLM/
 |-- app.py                         # Aplicación principal
 |-- requirements.txt               # Dependencias de Python
 |-- Zero_Infrastructure_LLMs.pptx   # Presentación del proyecto
+|-- documento_base_llm_apis_IE0435.pdf # Documento base teórico
 |-- .gitattributes                 # Manejo de archivos binarios en Git
 |-- .gitignore                     # Exclusiones para Git
 `-- README.md                      # Documentación
@@ -420,6 +477,31 @@ ollama pull llama3.2:3b
 ### Error de API key o token
 
 Revisa que la clave esté bien copiada, que el proveedor seleccionado sea correcto y que tu cuenta tenga permisos para usar el modelo.
+
+## Herramientas de IA Utilizadas
+
+La documentación y la implementación del proyecto fueron apoyadas por herramientas de IA generativa. Estas herramientas se usaron como asistentes para redacción, comparación, revisión de código, organización de ideas y mejora de documentación. La validación técnica final sigue siendo responsabilidad del autor.
+
+| Herramienta | Uso en el proyecto |
+| --- | --- |
+| ChatGPT | Estructura del README, guía de instalación, limpieza del código, flujo Git/GitHub y documentación bilingüe. |
+| Claude | Revisión conceptual, mejora de explicaciones, comparación de alternativas LLM/API y apoyo de redacción. |
+| NotebookLM / LLM Notebook | Revisión y organización de material fuente, extracción de ideas clave desde documentos y apoyo para sintetizar teoría. |
+
+## Referencias
+
+- Coto Jiménez, M. (2026). *Introducción a los Modelos Clásicos de Inteligencia Artificial Aplicada a la Ingeniería Eléctrica*. Universidad de Costa Rica. Documento del curso: `AI.pdf`.
+- Universidad de Costa Rica, Escuela de Ingeniería Eléctrica. (2026). *Asignación: Presentación Individual, Tema 11: Opciones gratuitas o de bajo costo para acceder a LLMs a través de APIs*.
+- Paddalwar, Y. *How to Access Free Open Source LLMs Like Llama 3 from Hugging Face Using Python API Step-by-Step*. Medium. https://medium.com/@yashpaddalwar/how-to-access-free-open-sourcellms-like-llama-3-from-hugging-face-using-python-api-step-by-step-5da80c98f4e3
+- Vaswani, A., et al. (2017). *Attention Is All You Need*. https://arxiv.org/abs/1706.03762
+- Hugging Face. *Inference Providers documentation*. https://huggingface.co/docs/inference-providers/en/index
+- Groq. *GroqCloud and pricing information*. https://groq.com/groqcloud and https://groq.com/pricing
+- Google AI for Developers. *Gemini API quickstart*. https://ai.google.dev/gemini-api/docs/quickstart
+- Together AI. *Pricing*. https://www.together.ai/pricing
+- Together AI Docs. *Serverless models*. https://docs.together.ai/docs/serverless-models
+- Anthropic. *Claude*. https://www.anthropic.com/claude
+- Google. *NotebookLM Help*. https://support.google.com/notebooklm/answer/16164461
+- OpenAI. *What is ChatGPT?* https://help.openai.com/en/articles/6783457-what-is-chatgpt
 
 ## Créditos
 
